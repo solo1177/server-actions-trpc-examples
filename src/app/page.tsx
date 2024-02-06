@@ -11,7 +11,7 @@ export default function Home() {
       </p>
       <p className="text-xl">{"I hope this helps with y'all's confusion"}</p>
 
-      <h1 className="pt-8 text-center text-2xl font-bold">Demos</h1>
+      <h1 className="pt-8 text-center text-2xl font-bold bg-gradient-to-r from-gradient_primary to-primary">Demos</h1>
 
       <Link
         href="/vanilla-action"
@@ -30,6 +30,13 @@ export default function Home() {
         className="text-xl text-blue-300 underline hover:text-blue-500"
       >
         RSC + tRPC + Server Actions
+      </Link>
+
+      <Link
+        href="/shad"
+        className="text-xl text-blue-300 underline hover:text-blue-500"
+      >
+        次のページ
       </Link>
     </div>
   );
